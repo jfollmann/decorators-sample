@@ -11,7 +11,7 @@ class User {
   @maxLength(10)
   email: string
 
-  constructor(name: string, email) { 
+  constructor(name: string, email: string) { 
     this.name = name
     this.email = email
   }
